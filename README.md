@@ -18,7 +18,15 @@ chromium/   # Chrome / Edge / Opera / Brave build (Chromium-based, Manifest V3)
 
 ## Install
 
-Packaged builds will be published under this repo's [Releases](../../releases).
+Packaged builds are published under this repo's [Releases](../../releases).
+
+**Firefox** — download the `.xpi` and install it via `about:addons` → gear icon → **Install Add-on From File**.
+
+**Chromium** (Chrome, Edge, Opera, Brave) — download and unzip the Chromium build, then:
+
+1. Go to `chrome://extensions` (or your browser's equivalent).
+2. Enable **Developer mode** (toggle, top-right).
+3. Click **Load unpacked** and select the unzipped folder.
 
 ## Tech
 
